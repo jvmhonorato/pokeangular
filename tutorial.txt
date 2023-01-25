@@ -24,6 +24,8 @@
 
 .EMpag.module importar sharedModule
 
+.criar o search ng g c shared/poke-search
+
 
 
 
