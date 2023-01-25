@@ -4,6 +4,20 @@
 
 .Passar link da font Roboto do google fonts em index.html, e depois declarar em style.scss
 
+.passar o svg na pasta assets
+
+.criar modulo de page: ng g m pages  e importar pra modulo principal
+
+.criar component home: ng g c ./pages/home
+
+. em app routing passa a rota com loadChild pra PagesModule
+
+.criar routing.module.ts que será a rota individual de de Home
+
+.importar o routing.module.ts em pages module.ts
+
+.criar e registrar details: ng g c --module pages pages/details
+
 
 
 
