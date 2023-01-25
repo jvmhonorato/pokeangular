@@ -22,6 +22,8 @@
 
 .criar poke-header: ng g c shared/poke-header
 
+.EMpag.module importar sharedModule
+
 
 
 

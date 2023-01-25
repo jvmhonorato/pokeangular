@@ -8,6 +8,9 @@ import { PokeHeaderComponent } from './poke-header/poke-header.component';
   declarations: [
     PokeHeaderComponent
   ],
+  exports:[
+    PokeHeaderComponent
+  ],
   imports: [
     CommonModule
   ]
