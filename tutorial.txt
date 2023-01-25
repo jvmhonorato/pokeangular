@@ -20,11 +20,15 @@
 
 .criar modulo shared: ng g m shared
 
-.criar poke-header: ng g c shared/poke-header
+.criar poke-header: ng g c shared/poke-header  e declarar em chared e em HomeComponent
 
-.EMpag.module importar sharedModule
+.EMpag.module importar sharedModule e declarar em chared e em HomeComponent
 
-.criar o search ng g c shared/poke-search
+.criar o search: ng g c shared/poke-search e declarar em chared e em HomeComponent
+
+.criar o List: ng g c shared/poke-list e declarar em shared e em HomeComponent
+
+
 
 
 
