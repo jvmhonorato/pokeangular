@@ -1,0 +1,30 @@
+.apagar arquivos, copiar o <router-outlet></router-outlet> pra o template de app.component.ts
+
+.add em src config-scss criar variaveis de styles e importar no style.scss
+
+.Passar link da font Roboto do google fonts em index.html, e depois declarar em style.scss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
