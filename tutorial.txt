@@ -28,6 +28,22 @@
 
 .criar o List: ng g c shared/poke-list e declarar em shared e em HomeComponent
 
+.criar estilos no component de lista
+
+CRIAR CLASSE DE SERVIÇO
+
+. criar serviços : ng g s service/pokeApi
+
+.EM app.module.ts registrar HttpClientModule
+
+.em pokeApi.com puxar 100 pokemons: https://pokeapi.co/api/v2/pokemon/?offset=0&limit=100
+
+. configurar serviço pra puxar dados da api atravez do httpClient
+
+. em poke-list.component.ts passar o PokeApiService no constructore chamr o onInit()
+
+
+
 
 
 
