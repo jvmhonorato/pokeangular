@@ -1,0 +1,56 @@
+@import'../../../config-scss/rem-calc.scss';
+$padding: rem-calc(20);
+:host{
+  .pokemon{
+
+    display: flex;
+    width: calc(49% - $padding);
+    background: var(--white);
+    height: rem-calc(100);
+    padding: $padding;
+    border-radius: rem-calc(10);
+
+    &_status{
+      h2{
+      font-size: rem-calc(22);
+      font-style: italic;
+      font-weight: 700;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+      li{
+        background: var(--grey);
+        font-size: rem-calc(10);
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: rem-calc(50);
+      }
+    }
+    &_image{
+
+      position: absolute;
+      bottom: rem-calc(20);
+      right: rem-calc(20);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: rem-calc(90);
+      width: rem-calc(110);
+      // background: url('');
+
+      img{
+        width: rem-calc(80);
+      }
+    }
+
+  }
+}
+
+
+
