@@ -46,10 +46,11 @@ CRIAR CLASSE DE SERVIÇO
 
 . em shared-module importar o RouterModule  pra funcionar o routerLink
 
-.
+SEARCH
 
+.configurar o poke-search.component.ts com @Output e eventEmmiter
 
-.
+.no html chamar  o (keypress) e passar um referencial '#input' pra pegar os dados que forem digitados
 
 
 

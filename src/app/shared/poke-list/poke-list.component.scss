@@ -1,11 +1,13 @@
 @import'../../../config-scss/rem-calc.scss';
 $padding: rem-calc(20);
-:host {
+:host{
+.listagem {
   position: relative;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: $padding 0;
+  text-decoration: none;
 
   .pokemon{
 
@@ -17,30 +19,35 @@ $padding: rem-calc(20);
     border-radius: rem-calc(10);
     margin-bottom: rem-calc(10);
     text-decoration: none;
-
+    color: var(--primary-color);
     &__status{
+
       h2{
       font-size: rem-calc(22);
       font-style: italic;
       font-weight: 700;
       text-transform: capitalize;
+
       }
       ul {
         display: flex;
         flex-direction: column;
+        text-decoration: none;
 
       }
       li{
         background: var(--grey);
         font-size: rem-calc(15);
         text-transform: capitalize;
+        background-color: rgb(198, 194, 194);
+        text-decoration: none !important;
 
 
         display:flex;
         justify-content: center;
         align-items: center;
         border-radius: rem-calc(10);
-        text-decoration: none;
+
 
       }
     }
@@ -69,6 +76,6 @@ $padding: rem-calc(20);
 
   }
 }
-
+}
 
 
