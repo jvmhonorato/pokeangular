@@ -1,6 +1,7 @@
 @import'../../../config-scss/rem-calc.scss';
 $padding: rem-calc(20);
-:host{
+:host {
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -8,14 +9,14 @@ $padding: rem-calc(20);
   .pokemon{
 
     display: flex;
-    width: calc(49% - $padding);
+    width: calc(46% - 20px);
     background: var(--white);
-    height: rem-calc(100);
+    height: rem-calc(157);
     padding: $padding;
     border-radius: rem-calc(10);
     margin-bottom: rem-calc(10);
 
-    &_status{
+    &__status{
       h2{
       font-size: rem-calc(22);
       font-style: italic;
@@ -28,31 +29,35 @@ $padding: rem-calc(20);
       }
       li{
         background: var(--grey);
-        font-size: rem-calc(10);
+        font-size: rem-calc(15);
         text-transform: capitalize;
 
         display:flex;
         justify-content: center;
         align-items: center;
-        border-radius: rem-calc(50);
+        border-radius: rem-calc(10);
       }
     }
-    &_image{
+    &__image{
 
       position: relative;
-      bottom: rem-calc(20);
-      right: rem-calc(20);
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
+      bottom: $padding;
+      right: $padding;
       height: rem-calc(90);
       width: rem-calc(110);
+
+      display: flex;
+      align-items:center;
+      justify-content: center;
+
+
       // background: url('');
 
       img{
         width: rem-calc(80);
+        padding-left: 145px;
+        padding-top: 100px;
+
       }
     }
 
