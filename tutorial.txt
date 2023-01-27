@@ -50,8 +50,9 @@ SEARCH
 
 .configurar o poke-search.component.ts com @Output e eventEmmiter
 
-.no html chamar  o (keypress) e passar um referencial '#input' pra pegar os dados que forem digitados
+.no poke-search.component.html chamar  o (keypress) e passar um referencial '#input' pra pegar os dados que forem digitados
 
+.em poke-list.component.ts criar metodo getSearch() depois chamar ele no poke-list.component.html no seletor de <poke-search>
 
 
 

@@ -1,6 +1,6 @@
 <!-- search -->
 
-<poke-search ></poke-search>
+<poke-search (emmitSearch)="getSearch($event)"></poke-search>
 
 <section class="listagem">
   <ng-template ngFor let-pokemon [ngForOf]="getAllPokemons">
@@ -8,7 +8,7 @@
   <section class="pokemon__status">
     <h2>{{pokemon.name}}</h2>
     <u>
-      <li *ngFor="let value of pokemon?.status?.types">{{value?.type?.name}}</li>
+      <li *ngFor="let value of pokemon.status.types">{{value.type.name}}</li>
 
     </u>
   </section>
