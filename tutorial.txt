@@ -44,6 +44,13 @@ CRIAR CLASSE DE SERVIÇO
 
 .no poke-list.component.html envolver os dados em ng-template e passar o ngFor
 
+. em shared-module importar o RouterModule  pra funcionar o routerLink
+
+.
+
+
+.
+
 
 
 
