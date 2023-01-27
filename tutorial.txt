@@ -40,7 +40,9 @@ CRIAR CLASSE DE SERVIÇO
 
 . configurar serviço pra puxar dados da api atravez do httpClient
 
-. em poke-list.component.ts passar o PokeApiService no constructore chamr o onInit()
+. em poke-list.component.ts passar o PokeApiService no constructor e chamar o onInit
+
+.no poke-list.component.html envolver os dados em ng-template e passar o ngFor
 
 
 
